@@ -1,0 +1,14 @@
+.subcategory-wrapper {
+    display:none;
+}
+.submenu-wrapper:hover{
+    .subcategory-wrapper {
+        display: flex;
+    }
+}
+.sub-cateogry-menu{
+    position: absolute;
+    margin-left:100%;
+    width:200px;
+    margin-top:-50px;
+}

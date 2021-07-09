@@ -1,0 +1,702 @@
+{
+  "contractName": "PhotoNFTDataObjects",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/photo-nft-data/commons/PhotoNFTDataObjects.sol\":\"PhotoNFTDataObjects\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/PhotoNFT.sol\":{\"keccak256\":\"0x38a5ac7b82e0484c1ee31f52d31e495573b202d4db4ac519fe8472e25892596f\",\"urls\":[\"bzz-raw://e7bed2c3e379deec1aeb70e05ca7c702b2136c9608050d6cf4184294437dd613\",\"dweb:/ipfs/QmNqHM2HvAtPydWBZK5mg2GLHq7MzBZRP3Sdn8bANJ7CLE\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/openzeppelin-solidity/contracts/introspection/ERC165.sol\":{\"keccak256\":\"0x9da23588f58d0fa67097984e151bdaa6aa69c5e192bae17b44a90b0cfc194736\",\"urls\":[\"bzz-raw://5e88c7dbb4d1e6d3f133112b9994491b8531f5d9103cf41becd1c267d2cd67af\",\"dweb:/ipfs/QmNuSmDBgv616hXRshbHx48ufdZoSrcFHpwqP4iPg2ac4X\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/openzeppelin-solidity/contracts/introspection/IERC165.sol\":{\"keccak256\":\"0xbbb6159006ae3639daea09f7d63987816d6cf3a99f52af919363e025d3abf3b8\",\"urls\":[\"bzz-raw://35e7d742ee71461779df12a0ab1ad4701144d98eb6401182838c8daf40b008dd\",\"dweb:/ipfs/QmY4t7pxcX2cfk6VsGJWZLBgoKMpRctY8X1HPxykLjptSi\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/openzeppelin-solidity/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x965012d27b4262d7a41f5028cbb30c51ebd9ecd4be8fb30380aaa7a3c64fbc8b\",\"urls\":[\"bzz-raw://1eb493553b27efd46c231a836a83ce50d215639feb97b4aac9f301d0fd034ff5\",\"dweb:/ipfs/QmbMdvSXcqGKxeeYvzF3VrWpoHQyVzMXBhzhAokF2Gdymv\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/openzeppelin-solidity/contracts/token/ERC721/ERC721.sol\":{\"keccak256\":\"0x0546fa662082b36ac9cbd418c0722a3c52718b9dc3fe3e284081d73f48036228\",\"urls\":[\"bzz-raw://a50dd4c1c7afa4ade53ee47bc782eaad72a45091ed9756081616b33eb6c150c4\",\"dweb:/ipfs/Qmb88e4EnSbJv2BbayFg6wZpFMJ9aPF7r4cwMjnZkUu4VK\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/openzeppelin-solidity/contracts/token/ERC721/ERC721Enumerable.sol\":{\"keccak256\":\"0x6c1899ddf6ca192150b58ce0ad2a890d981282a3ec2620700fa1c9a381b79ba0\",\"urls\":[\"bzz-raw://d898fb28a61ef52f03fcc3be772b09aeb4c88ebe6e57b79d7275da94758d6afa\",\"dweb:/ipfs/QmRFuDxB532sYwB8JXq5LdHLAfGigcAHMvh4T4TBVrHPwK\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol\":{\"keccak256\":\"0x21b8368e133ed2ee80f5feb602ff6bad7e3b9110b1ae90ea0faabf9c00527224\",\"urls\":[\"bzz-raw://ac1f35c6b92a163e16498daa3d471bfd218fad71f8067ae357950ddd31add718\",\"dweb:/ipfs/QmPk2WQbNXPW1jnnpDZXVxhgXATBU6fGwYFejWi21oL94M\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/openzeppelin-solidity/contracts/token/ERC721/ERC721Metadata.sol\":{\"keccak256\":\"0xb8deb41bb234969070dc362c144191f2781178c33cf6b434fd68aa3692834105\",\"urls\":[\"bzz-raw://83ef717ae1d047085d6ce2d63ed987c3282ba22190c09fa75f52346af2ac67bb\",\"dweb:/ipfs/QmQqQJor8zVE9kvYiCZscmerKrdLGgiELrn199zQEm7kZp\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/openzeppelin-solidity/contracts/token/ERC721/IERC721.sol\":{\"keccak256\":\"0x1f059ee943273719130df645fa38069b792988e8b732585528d5b1265f5aa046\",\"urls\":[\"bzz-raw://31e4d99091a83a42a6ea14d74ceae2ec3ffb2905c7ee07358875af72ea188333\",\"dweb:/ipfs/Qmf7nHc6BwhbyawapCVRZHzhBHNoA8ftpQWmGSyToVKVzN\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/openzeppelin-solidity/contracts/token/ERC721/IERC721Enumerable.sol\":{\"keccak256\":\"0x1cded69b7f4e17fe634fecbf2bf43320beb11a95ba924c3665a11fc8f47dffc4\",\"urls\":[\"bzz-raw://013a7b38cce9bf8d10af9ec8b5e09be1ea6645da2e1958bf6ed8a875942ac6d6\",\"dweb:/ipfs/Qme9TC1YrXMpNHFoM8GHRjWtRWJ1LxRcYJCPSfoqY4yYri\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/openzeppelin-solidity/contracts/token/ERC721/IERC721Metadata.sol\":{\"keccak256\":\"0xa0bb72e035727b0631aac6380e899ad48511073a3d67f1da528f845d4a3121fb\",\"urls\":[\"bzz-raw://aa3f398156da37e868c7d22967457a70aa840097c7d532b0155208a0d2dbf63f\",\"dweb:/ipfs/QmUfBdHdyzY5FzhZPC46RDsqJfaqT9oLhsknP92pYqtM2g\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/openzeppelin-solidity/contracts/token/ERC721/IERC721Receiver.sol\":{\"keccak256\":\"0x5e7281dbd14cf07af0974ce830c6242062cd430b70658878d49b5f5c1e2ec0aa\",\"urls\":[\"bzz-raw://3c9374b456bf5fde2c473331ff75bed9c6be3634948ba6a6507e4c19c2abf605\",\"dweb:/ipfs/QmUm5NKd1ToSr8MHVVanQv3XEkQpmYKw2441KXYyXPE6np\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/openzeppelin-solidity/contracts/utils/Address.sol\":{\"keccak256\":\"0x5c731061b804fa256fc8c05150eafe5d20b6bb94541a8f187912bf84f7033f34\",\"urls\":[\"bzz-raw://a3c2d9f046beebab7fb41b1b124a6a124a36f510f7c67365861402ac831bdc71\",\"dweb:/ipfs/QmUtASRgitregbKH83anopLtF9vFQe3BKeAjhUa6F7t9YV\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/photo-nft-data/commons/PhotoNFTDataObjects.sol\":{\"keccak256\":\"0xfbdc66d0d50ad9e76f63c20977edceab8700d995d01f3e3af048e66733f365cd\",\"urls\":[\"bzz-raw://6e81edd561fa6a32f02a4af9457902c64a4ad9281fca7f4c97d3e1c828ff8bca\",\"dweb:/ipfs/QmQcg7SRz3HjNzjYQS2xhjoYjHCcFwhTsJTJHtEgqoXcSh\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820f3a1a94483618d75ed2c6e1b4e5b548abc62637f4d547f953a88ed9c7969478464736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820f3a1a94483618d75ed2c6e1b4e5b548abc62637f4d547f953a88ed9c7969478464736f6c63430005100032",
+  "sourceMap": "74:395:21:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;74:395:21;;;;;;;",
+  "deployedSourceMap": "74:395:21:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\n\nimport { PhotoNFT } from \"../../PhotoNFT.sol\";\n\n\ncontract PhotoNFTDataObjects {\n\n    struct Photo {  /// [Key]: index of array\n        PhotoNFT photoNFT;\n        string photoNFTName;\n        string photoNFTSymbol;\n        address ownerAddress;\n        address artistAddress;\n        uint photoPrice;\n        string ipfsHashOfPhoto;\n        string photoMeta;\n        string status;  /// \"Open\" or \"Cancelled\"\n        uint256 reputation;\n    }\n\n}\n",
+  "sourcePath": "D:\\4.Works\\5.0513-\\0623(NFT)\\sample\\NFT-photo-marketplace-main\\contracts\\photo-nft-data\\commons\\PhotoNFTDataObjects.sol",
+  "ast": {
+    "absolutePath": "/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/photo-nft-data/commons/PhotoNFTDataObjects.sol",
+    "exportedSymbols": {
+      "PhotoNFTDataObjects": [
+        2841
+      ]
+    },
+    "id": 2842,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2817,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:21"
+      },
+      {
+        "absolutePath": "/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/PhotoNFT.sol",
+        "file": "../../PhotoNFT.sol",
+        "id": 2819,
+        "nodeType": "ImportDirective",
+        "scope": 2842,
+        "sourceUnit": 80,
+        "src": "25:46:21",
+        "symbolAliases": [
+          {
+            "foreign": 2818,
+            "local": null
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2841,
+        "linearizedBaseContracts": [
+          2841
+        ],
+        "name": "PhotoNFTDataObjects",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "PhotoNFTDataObjects.Photo",
+            "id": 2840,
+            "members": [
+              {
+                "constant": false,
+                "id": 2821,
+                "name": "photoNFT",
+                "nodeType": "VariableDeclaration",
+                "scope": 2840,
+                "src": "160:17:21",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_contract$_PhotoNFT_$79",
+                  "typeString": "contract PhotoNFT"
+                },
+                "typeName": {
+                  "contractScope": null,
+                  "id": 2820,
+                  "name": "PhotoNFT",
+                  "nodeType": "UserDefinedTypeName",
+                  "referencedDeclaration": 79,
+                  "src": "160:8:21",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_PhotoNFT_$79",
+                    "typeString": "contract PhotoNFT"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 2823,
+                "name": "photoNFTName",
+                "nodeType": "VariableDeclaration",
+                "scope": 2840,
+                "src": "187:19:21",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 2822,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "187:6:21",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 2825,
+                "name": "photoNFTSymbol",
+                "nodeType": "VariableDeclaration",
+                "scope": 2840,
+                "src": "216:21:21",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 2824,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "216:6:21",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 2827,
+                "name": "ownerAddress",
+                "nodeType": "VariableDeclaration",
+                "scope": 2840,
+                "src": "247:20:21",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 2826,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "247:7:21",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 2829,
+                "name": "artistAddress",
+                "nodeType": "VariableDeclaration",
+                "scope": 2840,
+                "src": "277:21:21",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 2828,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "277:7:21",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 2831,
+                "name": "photoPrice",
+                "nodeType": "VariableDeclaration",
+                "scope": 2840,
+                "src": "308:15:21",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 2830,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "308:4:21",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 2833,
+                "name": "ipfsHashOfPhoto",
+                "nodeType": "VariableDeclaration",
+                "scope": 2840,
+                "src": "333:22:21",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 2832,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "333:6:21",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 2835,
+                "name": "photoMeta",
+                "nodeType": "VariableDeclaration",
+                "scope": 2840,
+                "src": "365:16:21",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 2834,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "365:6:21",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 2837,
+                "name": "status",
+                "nodeType": "VariableDeclaration",
+                "scope": 2840,
+                "src": "391:13:21",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 2836,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "391:6:21",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 2839,
+                "name": "reputation",
+                "nodeType": "VariableDeclaration",
+                "scope": 2840,
+                "src": "441:18:21",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 2838,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "441:7:21",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "Photo",
+            "nodeType": "StructDefinition",
+            "scope": 2841,
+            "src": "110:356:21",
+            "visibility": "public"
+          }
+        ],
+        "scope": 2842,
+        "src": "74:395:21"
+      }
+    ],
+    "src": "0:470:21"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/photo-nft-data/commons/PhotoNFTDataObjects.sol",
+      "exportedSymbols": {
+        "PhotoNFTDataObjects": [
+          2841
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".0"
+          ]
+        },
+        "id": 2817,
+        "name": "PragmaDirective",
+        "src": "0:23:21"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 80,
+          "absolutePath": "/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/PhotoNFT.sol",
+          "file": "../../PhotoNFT.sol",
+          "scope": 2842,
+          "symbolAliases": [
+            {
+              "foreign": 2818,
+              "local": null
+            }
+          ],
+          "unitAlias": ""
+        },
+        "id": 2819,
+        "name": "ImportDirective",
+        "src": "25:46:21"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            2841
+          ],
+          "name": "PhotoNFTDataObjects",
+          "scope": 2842
+        },
+        "children": [
+          {
+            "attributes": {
+              "canonicalName": "PhotoNFTDataObjects.Photo",
+              "name": "Photo",
+              "scope": 2841,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "photoNFT",
+                  "scope": 2840,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "contract PhotoNFT",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "contractScope": null,
+                      "name": "PhotoNFT",
+                      "referencedDeclaration": 79,
+                      "type": "contract PhotoNFT"
+                    },
+                    "id": 2820,
+                    "name": "UserDefinedTypeName",
+                    "src": "160:8:21"
+                  }
+                ],
+                "id": 2821,
+                "name": "VariableDeclaration",
+                "src": "160:17:21"
+              },
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "photoNFTName",
+                  "scope": 2840,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "string",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "string",
+                      "type": "string"
+                    },
+                    "id": 2822,
+                    "name": "ElementaryTypeName",
+                    "src": "187:6:21"
+                  }
+                ],
+                "id": 2823,
+                "name": "VariableDeclaration",
+                "src": "187:19:21"
+              },
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "photoNFTSymbol",
+                  "scope": 2840,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "string",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "string",
+                      "type": "string"
+                    },
+                    "id": 2824,
+                    "name": "ElementaryTypeName",
+                    "src": "216:6:21"
+                  }
+                ],
+                "id": 2825,
+                "name": "VariableDeclaration",
+                "src": "216:21:21"
+              },
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "ownerAddress",
+                  "scope": 2840,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "address",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "address",
+                      "stateMutability": "nonpayable",
+                      "type": "address"
+                    },
+                    "id": 2826,
+                    "name": "ElementaryTypeName",
+                    "src": "247:7:21"
+                  }
+                ],
+                "id": 2827,
+                "name": "VariableDeclaration",
+                "src": "247:20:21"
+              },
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "artistAddress",
+                  "scope": 2840,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "address",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "address",
+                      "stateMutability": "nonpayable",
+                      "type": "address"
+                    },
+                    "id": 2828,
+                    "name": "ElementaryTypeName",
+                    "src": "277:7:21"
+                  }
+                ],
+                "id": 2829,
+                "name": "VariableDeclaration",
+                "src": "277:21:21"
+              },
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "photoPrice",
+                  "scope": 2840,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "uint256",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "uint",
+                      "type": "uint256"
+                    },
+                    "id": 2830,
+                    "name": "ElementaryTypeName",
+                    "src": "308:4:21"
+                  }
+                ],
+                "id": 2831,
+                "name": "VariableDeclaration",
+                "src": "308:15:21"
+              },
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "ipfsHashOfPhoto",
+                  "scope": 2840,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "string",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "string",
+                      "type": "string"
+                    },
+                    "id": 2832,
+                    "name": "ElementaryTypeName",
+                    "src": "333:6:21"
+                  }
+                ],
+                "id": 2833,
+                "name": "VariableDeclaration",
+                "src": "333:22:21"
+              },
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "photoMeta",
+                  "scope": 2840,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "string",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "string",
+                      "type": "string"
+                    },
+                    "id": 2834,
+                    "name": "ElementaryTypeName",
+                    "src": "365:6:21"
+                  }
+                ],
+                "id": 2835,
+                "name": "VariableDeclaration",
+                "src": "365:16:21"
+              },
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "status",
+                  "scope": 2840,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "string",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "string",
+                      "type": "string"
+                    },
+                    "id": 2836,
+                    "name": "ElementaryTypeName",
+                    "src": "391:6:21"
+                  }
+                ],
+                "id": 2837,
+                "name": "VariableDeclaration",
+                "src": "391:13:21"
+              },
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "reputation",
+                  "scope": 2840,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "uint256",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "uint256",
+                      "type": "uint256"
+                    },
+                    "id": 2838,
+                    "name": "ElementaryTypeName",
+                    "src": "441:7:21"
+                  }
+                ],
+                "id": 2839,
+                "name": "VariableDeclaration",
+                "src": "441:18:21"
+              }
+            ],
+            "id": 2840,
+            "name": "StructDefinition",
+            "src": "110:356:21"
+          }
+        ],
+        "id": 2841,
+        "name": "ContractDefinition",
+        "src": "74:395:21"
+      }
+    ],
+    "id": 2842,
+    "name": "SourceUnit",
+    "src": "0:470:21"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-07-09T05:23:29.615Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

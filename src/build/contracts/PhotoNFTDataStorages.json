@@ -1,0 +1,335 @@
+{
+  "contractName": "PhotoNFTDataStorages",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "photos",
+      "outputs": [
+        {
+          "internalType": "contract PhotoNFT",
+          "name": "photoNFT",
+          "type": "address"
+        },
+        {
+          "internalType": "string",
+          "name": "photoNFTName",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "photoNFTSymbol",
+          "type": "string"
+        },
+        {
+          "internalType": "address",
+          "name": "ownerAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "artistAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "photoPrice",
+          "type": "uint256"
+        },
+        {
+          "internalType": "string",
+          "name": "ipfsHashOfPhoto",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "photoMeta",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "status",
+          "type": "string"
+        },
+        {
+          "internalType": "uint256",
+          "name": "reputation",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"photos\",\"outputs\":[{\"internalType\":\"contract PhotoNFT\",\"name\":\"photoNFT\",\"type\":\"address\"},{\"internalType\":\"string\",\"name\":\"photoNFTName\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"photoNFTSymbol\",\"type\":\"string\"},{\"internalType\":\"address\",\"name\":\"ownerAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"artistAddress\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"photoPrice\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"ipfsHashOfPhoto\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"photoMeta\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"status\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"reputation\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/photo-nft-data/commons/PhotoNFTDataStorages.sol\":\"PhotoNFTDataStorages\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/PhotoNFT.sol\":{\"keccak256\":\"0x38a5ac7b82e0484c1ee31f52d31e495573b202d4db4ac519fe8472e25892596f\",\"urls\":[\"bzz-raw://e7bed2c3e379deec1aeb70e05ca7c702b2136c9608050d6cf4184294437dd613\",\"dweb:/ipfs/QmNqHM2HvAtPydWBZK5mg2GLHq7MzBZRP3Sdn8bANJ7CLE\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/openzeppelin-solidity/contracts/introspection/ERC165.sol\":{\"keccak256\":\"0x9da23588f58d0fa67097984e151bdaa6aa69c5e192bae17b44a90b0cfc194736\",\"urls\":[\"bzz-raw://5e88c7dbb4d1e6d3f133112b9994491b8531f5d9103cf41becd1c267d2cd67af\",\"dweb:/ipfs/QmNuSmDBgv616hXRshbHx48ufdZoSrcFHpwqP4iPg2ac4X\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/openzeppelin-solidity/contracts/introspection/IERC165.sol\":{\"keccak256\":\"0xbbb6159006ae3639daea09f7d63987816d6cf3a99f52af919363e025d3abf3b8\",\"urls\":[\"bzz-raw://35e7d742ee71461779df12a0ab1ad4701144d98eb6401182838c8daf40b008dd\",\"dweb:/ipfs/QmY4t7pxcX2cfk6VsGJWZLBgoKMpRctY8X1HPxykLjptSi\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/openzeppelin-solidity/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x965012d27b4262d7a41f5028cbb30c51ebd9ecd4be8fb30380aaa7a3c64fbc8b\",\"urls\":[\"bzz-raw://1eb493553b27efd46c231a836a83ce50d215639feb97b4aac9f301d0fd034ff5\",\"dweb:/ipfs/QmbMdvSXcqGKxeeYvzF3VrWpoHQyVzMXBhzhAokF2Gdymv\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/openzeppelin-solidity/contracts/token/ERC721/ERC721.sol\":{\"keccak256\":\"0x0546fa662082b36ac9cbd418c0722a3c52718b9dc3fe3e284081d73f48036228\",\"urls\":[\"bzz-raw://a50dd4c1c7afa4ade53ee47bc782eaad72a45091ed9756081616b33eb6c150c4\",\"dweb:/ipfs/Qmb88e4EnSbJv2BbayFg6wZpFMJ9aPF7r4cwMjnZkUu4VK\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/openzeppelin-solidity/contracts/token/ERC721/ERC721Enumerable.sol\":{\"keccak256\":\"0x6c1899ddf6ca192150b58ce0ad2a890d981282a3ec2620700fa1c9a381b79ba0\",\"urls\":[\"bzz-raw://d898fb28a61ef52f03fcc3be772b09aeb4c88ebe6e57b79d7275da94758d6afa\",\"dweb:/ipfs/QmRFuDxB532sYwB8JXq5LdHLAfGigcAHMvh4T4TBVrHPwK\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol\":{\"keccak256\":\"0x21b8368e133ed2ee80f5feb602ff6bad7e3b9110b1ae90ea0faabf9c00527224\",\"urls\":[\"bzz-raw://ac1f35c6b92a163e16498daa3d471bfd218fad71f8067ae357950ddd31add718\",\"dweb:/ipfs/QmPk2WQbNXPW1jnnpDZXVxhgXATBU6fGwYFejWi21oL94M\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/openzeppelin-solidity/contracts/token/ERC721/ERC721Metadata.sol\":{\"keccak256\":\"0xb8deb41bb234969070dc362c144191f2781178c33cf6b434fd68aa3692834105\",\"urls\":[\"bzz-raw://83ef717ae1d047085d6ce2d63ed987c3282ba22190c09fa75f52346af2ac67bb\",\"dweb:/ipfs/QmQqQJor8zVE9kvYiCZscmerKrdLGgiELrn199zQEm7kZp\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/openzeppelin-solidity/contracts/token/ERC721/IERC721.sol\":{\"keccak256\":\"0x1f059ee943273719130df645fa38069b792988e8b732585528d5b1265f5aa046\",\"urls\":[\"bzz-raw://31e4d99091a83a42a6ea14d74ceae2ec3ffb2905c7ee07358875af72ea188333\",\"dweb:/ipfs/Qmf7nHc6BwhbyawapCVRZHzhBHNoA8ftpQWmGSyToVKVzN\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/openzeppelin-solidity/contracts/token/ERC721/IERC721Enumerable.sol\":{\"keccak256\":\"0x1cded69b7f4e17fe634fecbf2bf43320beb11a95ba924c3665a11fc8f47dffc4\",\"urls\":[\"bzz-raw://013a7b38cce9bf8d10af9ec8b5e09be1ea6645da2e1958bf6ed8a875942ac6d6\",\"dweb:/ipfs/Qme9TC1YrXMpNHFoM8GHRjWtRWJ1LxRcYJCPSfoqY4yYri\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/openzeppelin-solidity/contracts/token/ERC721/IERC721Metadata.sol\":{\"keccak256\":\"0xa0bb72e035727b0631aac6380e899ad48511073a3d67f1da528f845d4a3121fb\",\"urls\":[\"bzz-raw://aa3f398156da37e868c7d22967457a70aa840097c7d532b0155208a0d2dbf63f\",\"dweb:/ipfs/QmUfBdHdyzY5FzhZPC46RDsqJfaqT9oLhsknP92pYqtM2g\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/openzeppelin-solidity/contracts/token/ERC721/IERC721Receiver.sol\":{\"keccak256\":\"0x5e7281dbd14cf07af0974ce830c6242062cd430b70658878d49b5f5c1e2ec0aa\",\"urls\":[\"bzz-raw://3c9374b456bf5fde2c473331ff75bed9c6be3634948ba6a6507e4c19c2abf605\",\"dweb:/ipfs/QmUm5NKd1ToSr8MHVVanQv3XEkQpmYKw2441KXYyXPE6np\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/openzeppelin-solidity/contracts/utils/Address.sol\":{\"keccak256\":\"0x5c731061b804fa256fc8c05150eafe5d20b6bb94541a8f187912bf84f7033f34\",\"urls\":[\"bzz-raw://a3c2d9f046beebab7fb41b1b124a6a124a36f510f7c67365861402ac831bdc71\",\"dweb:/ipfs/QmUtASRgitregbKH83anopLtF9vFQe3BKeAjhUa6F7t9YV\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/photo-nft-data/commons/PhotoNFTDataObjects.sol\":{\"keccak256\":\"0xfbdc66d0d50ad9e76f63c20977edceab8700d995d01f3e3af048e66733f365cd\",\"urls\":[\"bzz-raw://6e81edd561fa6a32f02a4af9457902c64a4ad9281fca7f4c97d3e1c828ff8bca\",\"dweb:/ipfs/QmQcg7SRz3HjNzjYQS2xhjoYjHCcFwhTsJTJHtEgqoXcSh\"]},\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/photo-nft-data/commons/PhotoNFTDataStorages.sol\":{\"keccak256\":\"0xf014b4ff91479900314d2a27e9bd8bac0037175babf0a69f6393e45f8e0b7453\",\"urls\":[\"bzz-raw://b192caa5e660f2442f76b1ff2e1e51bfc3fd0baa7e88094affbc8a0358b339ab\",\"dweb:/ipfs/QmcKou6pv2YsVecuvnCSTVEuwMPTzBmkyUrnzX8oz3xAew\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061061b806100206000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c8063af2a5d6f14610030575b600080fd5b61004d6004803603602081101561004657600080fd5b50356102b9565b604051808b6001600160a01b03166001600160a01b0316815260200180602001806020018a6001600160a01b03166001600160a01b03168152602001896001600160a01b03166001600160a01b0316815260200188815260200180602001806020018060200187815260200186810386528f818151815260200191508051906020019080838360005b838110156100ee5781810151838201526020016100d6565b50505050905090810190601f16801561011b5780820380516001836020036101000a031916815260200191505b5086810385528e818151815260200191508051906020019080838360005b83811015610151578181015183820152602001610139565b50505050905090810190601f16801561017e5780820380516001836020036101000a031916815260200191505b5086810384528a5181528a516020918201918c019080838360005b838110156101b1578181015183820152602001610199565b50505050905090810190601f1680156101de5780820380516001836020036101000a031916815260200191505b5086810383528951815289516020918201918b019080838360005b838110156102115781810151838201526020016101f9565b50505050905090810190601f16801561023e5780820380516001836020036101000a031916815260200191505b5086810382528851815288516020918201918a019080838360005b83811015610271578181015183820152602001610259565b50505050905090810190601f16801561029e5780820380516001836020036101000a031916815260200191505b509f5050505050505050505050505050505060405180910390f35b600081815481106102c657fe5b6000918252602091829020600a9091020180546001808301805460408051601f60026000199685161561010002969096019093169490940491820187900487028401870190528083526001600160a01b0390931695509293909291908301828280156103735780601f1061034857610100808354040283529160200191610373565b820191906000526020600020905b81548152906001019060200180831161035657829003601f168201915b50505060028085018054604080516020601f60001961010060018716150201909416959095049283018590048502810185019091528181529596959450909250908301828280156104055780601f106103da57610100808354040283529160200191610405565b820191906000526020600020905b8154815290600101906020018083116103e857829003601f168201915b5050505060038301546004840154600585015460068601805460408051602060026101006001861615026000190190941693909304601f810184900484028201840190925281815297986001600160a01b0396871698969095169650929492908301828280156104b65780601f1061048b576101008083540402835291602001916104b6565b820191906000526020600020905b81548152906001019060200180831161049957829003601f168201915b5050505060078301805460408051602060026001851615610100026000190190941693909304601f81018490048402820184019092528181529495949350908301828280156105465780601f1061051b57610100808354040283529160200191610546565b820191906000526020600020905b81548152906001019060200180831161052957829003601f168201915b5050505060088301805460408051602060026001851615610100026000190190941693909304601f81018490048402820184019092528181529495949350908301828280156105d65780601f106105ab576101008083540402835291602001916105d6565b820191906000526020600020905b8154815290600101906020018083116105b957829003601f168201915b505050505090806009015490508a56fea265627a7a723158206c0d33d7a600d09191ed24b8308c5f695e504dabcc55daf5b54753e08d68c7bc64736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061002b5760003560e01c8063af2a5d6f14610030575b600080fd5b61004d6004803603602081101561004657600080fd5b50356102b9565b604051808b6001600160a01b03166001600160a01b0316815260200180602001806020018a6001600160a01b03166001600160a01b03168152602001896001600160a01b03166001600160a01b0316815260200188815260200180602001806020018060200187815260200186810386528f818151815260200191508051906020019080838360005b838110156100ee5781810151838201526020016100d6565b50505050905090810190601f16801561011b5780820380516001836020036101000a031916815260200191505b5086810385528e818151815260200191508051906020019080838360005b83811015610151578181015183820152602001610139565b50505050905090810190601f16801561017e5780820380516001836020036101000a031916815260200191505b5086810384528a5181528a516020918201918c019080838360005b838110156101b1578181015183820152602001610199565b50505050905090810190601f1680156101de5780820380516001836020036101000a031916815260200191505b5086810383528951815289516020918201918b019080838360005b838110156102115781810151838201526020016101f9565b50505050905090810190601f16801561023e5780820380516001836020036101000a031916815260200191505b5086810382528851815288516020918201918a019080838360005b83811015610271578181015183820152602001610259565b50505050905090810190601f16801561029e5780820380516001836020036101000a031916815260200191505b509f5050505050505050505050505050505060405180910390f35b600081815481106102c657fe5b6000918252602091829020600a9091020180546001808301805460408051601f60026000199685161561010002969096019093169490940491820187900487028401870190528083526001600160a01b0390931695509293909291908301828280156103735780601f1061034857610100808354040283529160200191610373565b820191906000526020600020905b81548152906001019060200180831161035657829003601f168201915b50505060028085018054604080516020601f60001961010060018716150201909416959095049283018590048502810185019091528181529596959450909250908301828280156104055780601f106103da57610100808354040283529160200191610405565b820191906000526020600020905b8154815290600101906020018083116103e857829003601f168201915b5050505060038301546004840154600585015460068601805460408051602060026101006001861615026000190190941693909304601f810184900484028201840190925281815297986001600160a01b0396871698969095169650929492908301828280156104b65780601f1061048b576101008083540402835291602001916104b6565b820191906000526020600020905b81548152906001019060200180831161049957829003601f168201915b5050505060078301805460408051602060026001851615610100026000190190941693909304601f81018490048402820184019092528181529495949350908301828280156105465780601f1061051b57610100808354040283529160200191610546565b820191906000526020600020905b81548152906001019060200180831161052957829003601f168201915b5050505060088301805460408051602060026001851615610100026000190190941693909304601f81018490048402820184019092528181529495949350908301828280156105d65780601f106105ab576101008083540402835291602001916105d6565b820191906000526020600020905b8154815290600101906020018083116105b957829003601f168201915b505050505090806009015490508a56fea265627a7a723158206c0d33d7a600d09191ed24b8308c5f695e504dabcc55daf5b54753e08d68c7bc64736f6c63430005100032",
+  "sourceMap": "110:85:22:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;110:85:22;;;;;;;",
+  "deployedSourceMap": "110:85:22:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;110:85:22;;;;;;;;;;;;;;;;;;;170:21;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;170:21:22;;:::i;:::-;;;;;-1:-1:-1;;;;;170:21:22;-1:-1:-1;;;;;170:21:22;;;;;;;;;;;;-1:-1:-1;;;;;170:21:22;-1:-1:-1;;;;;170:21:22;;;;;;-1:-1:-1;;;;;170:21:22;-1:-1:-1;;;;;170:21:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;170:21:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;170:21:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;170:21:22;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;170:21:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;170:21:22;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;170:21:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;170:21:22;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;170:21:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;170:21:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;170:21:22;;;;-1:-1:-1;170:21:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;170:21:22;;;;;;;;;;;-1:-1:-1;;170:21:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;170:21:22;;-1:-1:-1;170:21:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;170:21:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;170:21:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;170:21:22;;;;;;;;;-1:-1:-1;170:21:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;170:21:22;;;;;;;;;;;;;;;;-1:-1:-1;;170:21:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;170:21:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;170:21:22;;;;;;;;;;;;;;;;-1:-1:-1;;170:21:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;170:21:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.5.0;\n\nimport { PhotoNFTDataObjects } from \"./PhotoNFTDataObjects.sol\";\n\n\n// shared storage\ncontract PhotoNFTDataStorages is PhotoNFTDataObjects {\n\n    Photo[] public photos;\n\n}\n\n",
+  "sourcePath": "D:\\4.Works\\5.0513-\\0623(NFT)\\sample\\NFT-photo-marketplace-main\\contracts\\photo-nft-data\\commons\\PhotoNFTDataStorages.sol",
+  "ast": {
+    "absolutePath": "/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/photo-nft-data/commons/PhotoNFTDataStorages.sol",
+    "exportedSymbols": {
+      "PhotoNFTDataStorages": [
+        2851
+      ]
+    },
+    "id": 2852,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2843,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:22"
+      },
+      {
+        "absolutePath": "/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/photo-nft-data/commons/PhotoNFTDataObjects.sol",
+        "file": "./PhotoNFTDataObjects.sol",
+        "id": 2845,
+        "nodeType": "ImportDirective",
+        "scope": 2852,
+        "sourceUnit": 2842,
+        "src": "25:64:22",
+        "symbolAliases": [
+          {
+            "foreign": 2844,
+            "local": null
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 2846,
+              "name": "PhotoNFTDataObjects",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 2841,
+              "src": "143:19:22",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_PhotoNFTDataObjects_$2841",
+                "typeString": "contract PhotoNFTDataObjects"
+              }
+            },
+            "id": 2847,
+            "nodeType": "InheritanceSpecifier",
+            "src": "143:19:22"
+          }
+        ],
+        "contractDependencies": [
+          2841
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2851,
+        "linearizedBaseContracts": [
+          2851,
+          2841
+        ],
+        "name": "PhotoNFTDataStorages",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 2850,
+            "name": "photos",
+            "nodeType": "VariableDeclaration",
+            "scope": 2851,
+            "src": "170:21:22",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_struct$_Photo_$2840_storage_$dyn_storage",
+              "typeString": "struct PhotoNFTDataObjects.Photo[]"
+            },
+            "typeName": {
+              "baseType": {
+                "contractScope": null,
+                "id": 2848,
+                "name": "Photo",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 2840,
+                "src": "170:5:22",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_Photo_$2840_storage_ptr",
+                  "typeString": "struct PhotoNFTDataObjects.Photo"
+                }
+              },
+              "id": 2849,
+              "length": null,
+              "nodeType": "ArrayTypeName",
+              "src": "170:7:22",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_struct$_Photo_$2840_storage_$dyn_storage_ptr",
+                "typeString": "struct PhotoNFTDataObjects.Photo[]"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 2852,
+        "src": "110:85:22"
+      }
+    ],
+    "src": "0:197:22"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/photo-nft-data/commons/PhotoNFTDataStorages.sol",
+      "exportedSymbols": {
+        "PhotoNFTDataStorages": [
+          2851
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".0"
+          ]
+        },
+        "id": 2843,
+        "name": "PragmaDirective",
+        "src": "0:23:22"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 2842,
+          "absolutePath": "/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/photo-nft-data/commons/PhotoNFTDataObjects.sol",
+          "file": "./PhotoNFTDataObjects.sol",
+          "scope": 2852,
+          "symbolAliases": [
+            {
+              "foreign": 2844,
+              "local": null
+            }
+          ],
+          "unitAlias": ""
+        },
+        "id": 2845,
+        "name": "ImportDirective",
+        "src": "25:64:22"
+      },
+      {
+        "attributes": {
+          "contractDependencies": [
+            2841
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            2851,
+            2841
+          ],
+          "name": "PhotoNFTDataStorages",
+          "scope": 2852
+        },
+        "children": [
+          {
+            "attributes": {
+              "arguments": null
+            },
+            "children": [
+              {
+                "attributes": {
+                  "contractScope": null,
+                  "name": "PhotoNFTDataObjects",
+                  "referencedDeclaration": 2841,
+                  "type": "contract PhotoNFTDataObjects"
+                },
+                "id": 2846,
+                "name": "UserDefinedTypeName",
+                "src": "143:19:22"
+              }
+            ],
+            "id": 2847,
+            "name": "InheritanceSpecifier",
+            "src": "143:19:22"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "name": "photos",
+              "scope": 2851,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "struct PhotoNFTDataObjects.Photo[]",
+              "value": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "length": null,
+                  "type": "struct PhotoNFTDataObjects.Photo[]"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "contractScope": null,
+                      "name": "Photo",
+                      "referencedDeclaration": 2840,
+                      "type": "struct PhotoNFTDataObjects.Photo"
+                    },
+                    "id": 2848,
+                    "name": "UserDefinedTypeName",
+                    "src": "170:5:22"
+                  }
+                ],
+                "id": 2849,
+                "name": "ArrayTypeName",
+                "src": "170:7:22"
+              }
+            ],
+            "id": 2850,
+            "name": "VariableDeclaration",
+            "src": "170:21:22"
+          }
+        ],
+        "id": 2851,
+        "name": "ContractDefinition",
+        "src": "110:85:22"
+      }
+    ],
+    "id": 2852,
+    "name": "SourceUnit",
+    "src": "0:197:22"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-07-09T05:23:29.616Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "contractName": "PhotoNFTFactoryConstants",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{},\"title\":\"Shared constants\"},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/photo-nft-factory/commons/PhotoNFTFactoryConstants.sol\":\"PhotoNFTFactoryConstants\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/photo-nft-factory/commons/PhotoNFTFactoryConstants.sol\":{\"keccak256\":\"0xa7555f888bc8c44bfde041a005b27c000b90a9ede56bbdbb5578391880532473\",\"urls\":[\"bzz-raw://ca3619b9141a101df5a3ea8bcf9138c1c487cd0c611be42012a275599e1a8275\",\"dweb:/ipfs/QmSMR61ZpY7uAPh6JYeEiGAddMsHBjStZCtcmaL87nhTMP\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820018da34e768237ab149d70f53a7f3af22eca5790143d51736d739f7a5acc67e664736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820018da34e768237ab149d70f53a7f3af22eca5790143d51736d739f7a5acc67e664736f6c63430005100032",
+  "sourceMap": "62:77:56:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;62:77:56;;;;;;;",
+  "deployedSourceMap": "62:77:56:-;;;;;",
+  "source": "pragma solidity >=0.5.0 <0.6.0;\n\n\n/// @title Shared constants\ncontract PhotoNFTFactoryConstants {\n\n    uint8 constant EXAMPLE_VALUE = 0;\n\n}\n",
+  "sourcePath": "D:/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/photo-nft-factory/commons/PhotoNFTFactoryConstants.sol",
+  "ast": {
+    "absolutePath": "/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/photo-nft-factory/commons/PhotoNFTFactoryConstants.sol",
+    "exportedSymbols": {
+      "PhotoNFTFactoryConstants": [
+        6051
+      ]
+    },
+    "id": 6052,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 6047,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:31:56"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": "@title Shared constants",
+        "fullyImplemented": true,
+        "id": 6051,
+        "linearizedBaseContracts": [
+          6051
+        ],
+        "name": "PhotoNFTFactoryConstants",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": true,
+            "id": 6050,
+            "name": "EXAMPLE_VALUE",
+            "nodeType": "VariableDeclaration",
+            "scope": 6051,
+            "src": "103:32:56",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint8",
+              "typeString": "uint8"
+            },
+            "typeName": {
+              "id": 6048,
+              "name": "uint8",
+              "nodeType": "ElementaryTypeName",
+              "src": "103:5:56",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint8",
+                "typeString": "uint8"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 6049,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "134:1:56",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "internal"
+          }
+        ],
+        "scope": 6052,
+        "src": "62:77:56"
+      }
+    ],
+    "src": "0:140:56"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/D/4.Works/5.0513-/0623(NFT)/sample/NFT-photo-marketplace-main/contracts/photo-nft-factory/commons/PhotoNFTFactoryConstants.sol",
+      "exportedSymbols": {
+        "PhotoNFTFactoryConstants": [
+          6051
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.5",
+            ".0",
+            "<",
+            "0.6",
+            ".0"
+          ]
+        },
+        "id": 6047,
+        "name": "PragmaDirective",
+        "src": "0:31:56"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": "@title Shared constants",
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            6051
+          ],
+          "name": "PhotoNFTFactoryConstants",
+          "scope": 6052
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": true,
+              "name": "EXAMPLE_VALUE",
+              "scope": 6051,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint8",
+              "visibility": "internal"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint8",
+                  "type": "uint8"
+                },
+                "id": 6048,
+                "name": "ElementaryTypeName",
+                "src": "103:5:56"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "30",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "number",
+                  "type": "int_const 0",
+                  "value": "0"
+                },
+                "id": 6049,
+                "name": "Literal",
+                "src": "134:1:56"
+              }
+            ],
+            "id": 6050,
+            "name": "VariableDeclaration",
+            "src": "103:32:56"
+          }
+        ],
+        "id": 6051,
+        "name": "ContractDefinition",
+        "src": "62:77:56"
+      }
+    ],
+    "id": 6052,
+    "name": "SourceUnit",
+    "src": "0:140:56"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-07-05T18:37:04.064Z",
+  "devdoc": {
+    "methods": {},
+    "title": "Shared constants"
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
